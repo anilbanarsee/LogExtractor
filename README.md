@@ -27,7 +27,7 @@ $SHELL
 
 2. Go to Grafana and extract the logs over that time period. (You can filter by app and namespace). It's likely that
    this will comprise multiple files, you do not need to collate them into a single file.
-3. Paste these log files into a folder named `logs_in` in this project's working directory
+3. Paste these log files into a directory named `logs_in` in this project's working directory
 4. Run Main
 5. The extracted times for each metric category should be contained in a correspondingly named file in `extracted_out` (
    also in the working directory)
